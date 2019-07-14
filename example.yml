@@ -1,0 +1,97 @@
+# plot.py를 위한 YAML 설정 파일
+savedir      : Graphs
+savefilename : 
+
+# Applies to specified cases; overwritten if private setting exists
+Preset:
+  - path      : 
+    filename  : 
+    delimiter :
+    nheader   : 
+    label     : 
+    xcolumn   : 
+    xmodify   : 
+    ycolumn   : 
+    ymodify   : 
+    linestyle :
+    linewidth :
+    color     :
+    alpha     :
+
+Data:
+# Applies to all cases; overwritten if private/Preset setting exists
+    path      : 
+    filename  :
+    delimiter :
+    nheader   :
+    label     : 
+    xcolumn   :
+    xmodify   :
+    ycolumn   :
+    ymodify   :
+    linestyle :
+    linewidth :
+    color     :
+    alpha     :
+
+    # Settings for each private data cases; should exist    
+    Cases:
+        - preset :
+          path      : 
+          filename  :
+          delimiter :
+          nheader   :
+          label     : 
+          xcolumn   :
+          xmodify   :
+          ycolumn   :
+          ymodify   :
+          linestyle :
+          linewidth :
+          color     :
+          alpha     :
+
+# Later, Scatter should be added
+
+Figure:
+    width  : 
+    height : 
+    dpi    : 
+    xlabel :
+    xstart : 
+    xend   : 
+    # tick: interval between automatic tick; ignored if ticks exists
+    xtick  : 
+    # ticks, list: Explicitly shown ticks position/word
+    xticks : 
+    xlist  :
+    ylabel :
+    ystart :
+    yend   :
+    ytick  :
+    alpha  :
+    Legend :
+        location: lower right
+        Custom:
+            - label     :
+              linestyle :
+              linewidth :
+              color     :
+              alpha     :
+
+Fonts:
+    Main:
+        family  :
+        size    : 
+        weight  :
+        style   :
+        variant :
+        stretch :
+    Axes:
+        family  :
+        size    : 
+        weight  :
+        style   :
+        variant :
+        stretch :
+

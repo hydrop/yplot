@@ -1,0 +1,18 @@
+Figure:
+# width * height
+# For powerpoint
+# 4 graphs in a page: (11cm * 7cm) * 2 = 866*551 / 100dpi
+    width  : 866
+    height : 551
+    dpi    : 100
+    xlabel : x
+    ylabel : y
+    alpha  :  1.0
+
+Font:
+    Main:
+        family  : Sans-serif
+        size    : xx-large
+        weight  : normal
+    Axes:
+        size    : x-large
